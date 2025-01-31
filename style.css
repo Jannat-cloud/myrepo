@@ -1,0 +1,56 @@
+/* Global font settings */
+body {
+  font-family: 'Roboto', sans-serif; /* Modern font for the body text */
+  color: #333; /* Dark gray text color for better readability */
+  line-height: 1.5; /* Spacing between lines of text */
+  background-color: #fafafa; /* Light background color for a clean look */
+  margin: 0;
+  padding: 0;
+}
+
+/* Heading styles */
+h1, h2, h3 {
+  font-family: 'Helvetica', sans-serif; /* A more sleek and bold font for headings */
+  color: #2c3e50; /* Darker color for headings to create contrast */
+  margin-bottom: 10px; /* Adds space below the heading */
+}
+
+/* Paragraphs */
+p {
+  font-size: 16px; /* Default font size for body text */
+  color: #555; /* Slightly lighter color for paragraphs to make them softer */
+  margin-bottom: 20px; /* Adds space below paragraphs */
+}
+
+/* Button styling */
+button {
+  background-color: #3498db; /* Blue background for the button */
+  color: white; /* White text color */
+  padding: 10px 20px; /* Adds space inside the button */
+  border: none; /* Removes default button border */
+  border-radius: 5px; /* Rounded corners for a smooth look */
+  cursor: pointer; /* Changes the cursor to a pointer when hovered */
+  font-size: 16px; /* Makes the text inside the button slightly bigger */
+  text-transform: uppercase; /* Makes the text in buttons uppercase for a bolder look */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transitions for hover effects */
+}
+
+/* Button hover effect */
+button:hover {
+  background-color: #2980b9; /* Darker blue when the button is hovered */
+  transform: translateY(-3px); /* Slightly lifts the button when hovered */
+}
+
+/* Button active effect (when clicked) */
+button:active {
+  transform: translateY(1px); /* Makes the button appear pressed when clicked */
+}
+
+/* Add a "secondary" button style for different use cases */
+button.secondary {
+  background-color: #95a5a6; /* Gray color for secondary buttons */
+}
+
+button.secondary:hover {
+  background-color: #7f8c8d; /* Darker gray when hovered */
+}
